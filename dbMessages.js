@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
-const whatsappSchema = mongoose.Schema({
+const messageSchema = mongoose.Schema({
   message: String,
   name: String,
   timestamp: String,
   received: Boolean,
 });
 
-export default mongoose.model("messagecontent", whatsappSchema);
+export default mongoose.model("messagecontent", messageSchema);
