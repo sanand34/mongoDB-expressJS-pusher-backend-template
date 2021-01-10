@@ -10,7 +10,11 @@ to add the node_modules.
 "mongoURI": "mongodb+srv://test_user:123456@cluster0-v6q0g.mongodb.net/test?retryWrites=true&w=majority",
 
 ## 3.Go to https://pusher.com/ 
+to get pusher data
 
-## 3. nodemon index.js to run and connect to database.
+## 3.Connect to database.
+```js
+$ nodemon index
+```
 
 ## 4.Database will run at http://localhost:9000/
